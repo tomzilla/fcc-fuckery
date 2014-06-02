@@ -107,5 +107,13 @@
       </div>
       <input type="submit"/>
     </form>
+    <script>
+      $('#myForm').ajaxForm({
+        success:function(data){
+          console.log(data);
+        }
+      });
+
+    </script>
     
   </body>
